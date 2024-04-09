@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prepare": "husky install",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -15,8 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "commitmsg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "commitlint": {
